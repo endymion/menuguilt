@@ -1,0 +1,11 @@
+.sass-cache
+/cache
+log/*
+tmp/**/*
+.DS_Store
+db/schema.rb
+db/*.sqlite3
+design/
+gems/gems
+vendor/bundler_gems
+vendor/gems
