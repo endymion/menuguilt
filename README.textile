@@ -1,0 +1,3 @@
+h1. Menu Guilt
+
+An open source web app that combines menu information with recommendations from Seafood Watch to create a report card grade for local restaurants, rating them on the sustainability of their menu choices.
