@@ -1,3 +1,2 @@
-# your .gems file should include the follow lines *exactly*
 haml --version '>= 2.2.0'
 compass --version '>= 0.8.7' --source gems.github.com
