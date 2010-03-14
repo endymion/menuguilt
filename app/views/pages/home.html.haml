@@ -1,7 +1,8 @@
-%h2
-  Menu Guilt is a simple report card for helping you to support restaurants that respect our environment.  Please help by updating our database with the menu selections that your local restaurants are making.
+= content_for 'sub_header' do
+  %h2
+    Menu Guilt is a simple report card for helping you to support restaurants that respect our environment.  Please help by updating our database with the menu selections that your local restaurants are making.
 
-#sidebar
+= content_for 'sidebar' do
   %h4
     Location
   %ul
@@ -10,25 +11,14 @@
     %li
       Set zip code.
 
-
-  %h4
-    Information
-  %ul
-    %li
-      Seafood Watch
-    %li
-      Greenpeace
-
-
-#content
-  %h4
+%h4
+  Restaurant menus
+%ul
+  %li
     Restaurant
-  %ul
-    %li
-      Restaurant
-    %li
-      Restaurant
-    %li
-      Restaurant
-    %li
-      Restaurant
+  %li
+    Restaurant
+  %li
+    Restaurant
+  %li
+    Restaurant
