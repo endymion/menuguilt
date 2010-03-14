@@ -1,3 +1,4 @@
 chriseppstein-compass --version '>= 0.8.7' --source gems.github.com
 subdomain-fu --source gems.github.com
 authlogic
+facebooker

@@ -8,6 +8,7 @@ require File.join(File.dirname(__FILE__), 'boot')
 
 Rails::Initializer.run do |config|
   config.gem "authlogic"
+  config.gem "facebooker"
 
   # config.gem 'compass', :version => '>= 0.8.17'
   # config.gem 'haml', :version => '>=2.2.16'
