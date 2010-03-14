@@ -1,5 +1,15 @@
 <h1>Login</h1>
 
+<div id="facebook" class="login">
+<h3>Use Facebook</h3>
+<p>
+  <%= authlogic_facebook_login_button %>
+</p>
+</div>
+
+<div id="direct" class="login">
+<h3>Or login directly</h3>
+
 <% form_for @user_session, :url => user_session_path do |f| %>
   <%= f.error_messages %>
   <%= f.label :login %><br />
@@ -12,3 +22,4 @@
   <br />
   <%= f.submit "Login" %>
 <% end %>
+</div>
