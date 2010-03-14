@@ -9,10 +9,10 @@
     %link{:rel=>"stylesheet", :href=>"/stylesheets/compiled/ie.css", :media=>"screen, projection", :type=>"text/css"}
     <![endif]-->
 
-  %body.three-col
+  %body.three-col.bp
     #container
       #header
-        = header_image
+        = link_to image_tag(header_image), root_url
         
         - if !current_user
           = link_to "Register", new_account_path
@@ -22,3 +22,8 @@
           = link_to "Logout", user_session_path, :method => :delete, :confirm => "Are you sure you want to logout?"
 
       = yield
+      
+      #footer
+        Copyright &copy;
+        = Time.now.year
+        Brave New Media
